@@ -6,7 +6,7 @@
  intcounter = 0;
  sem_t semaphore;
 
- void* increment_counter (void*arg)
+ void* increment_counter (void* arg)
 {
  for(int i=0; i<5; i++)
  {

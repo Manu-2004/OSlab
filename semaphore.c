@@ -29,7 +29,7 @@
     pthread_create(&threads[i],NULL, increment_counter,NULL);  // Create a thread and pass increment_counter as the thread function
  }
   // Join all threads to wait for them to finish
-   for(inti = 0;i < NUM_THREADS; i++)
+   for(int i = 0;i < NUM_THREADS; i++)
    {
    pthread_join(threads[i],NULL); // Wait for thread i to finish
    }
